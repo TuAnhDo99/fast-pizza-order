@@ -1,0 +1,7 @@
+feature folder: contains all the features that gathered before and all of their components, custom hook and all js that make they work
+
+ui foldder: contains all the reuseable UI components such as button. input, etc... so these are many times hust presentational and dont contain any side effects
+
+services folder: reuseable code for interacting with API
+
+utils folder: some helper function that dont create side effects, for ex: date or number manipulations

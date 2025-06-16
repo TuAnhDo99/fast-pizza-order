@@ -1,0 +1,25 @@
+Feature categories:
+1. User -> Global UI state (no accounts, so stays in app)
+2. Menu -> Global remote state (menu is fetched from API)
+3. Cart -> Global UI state (no need for API, just stored in the app)
+4. Order -> Global remote state (fetched and submitted from API)
+
+
+Necessary Page:
+1. Homepage /
+2. Pizza menu /menu
+3. Cart /cart
+4  Palace a new order /order/new
+5. Looking up an order /order/:orderID
+
+Routing:
+React Router , the standard for React SPAs
+
+Styling:
+Tailwindcss, tremdy way of styling applications that we want to learn
+
+Remote state management:
+React Router, new way of fetching data right inside React Router(v6.4+) that is worth exploring ("render-as-you-fectch" instead of "fetch-on-render"). Not really state management, as it doesn't persist state
+
+UI state management:
+Redux, state is fairly complex. Redux has many advantages for UI state. Also, we want to practice Redux a bit more
